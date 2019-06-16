@@ -15,4 +15,16 @@ from dir2, and dir2 is a subdirectory from dir1 ).
 14.Display the type of the file /usr/share/man/man1/bc.1.gz
 15. Create the files today.txt and yesterday.txt in touched.
 16. Change the date on yesterday.txt to match yesterday's date
+17. Display the first 12 lines of /etc/services.
+18. Display the last line of /etc/passwd.
+19. Use cat to create a file named count.txt that looks like this:
+One
+Two
+Three
+Four
+Five
+20. Use cp to make a backup of this file to cnt.txt.
+21. Display catcnt.txt, but with all lines in reverse order (the last line first).
+22.Use cat to create a file named tailing.txt that contains the contents of /etc/profile
+followed by the contents of /etc/passwd.
 
