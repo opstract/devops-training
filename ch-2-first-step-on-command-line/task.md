@@ -1,4 +1,4 @@
-# Display your current directory.
+# First step on command line .
 1. Display your current directory.
 2. Change to the /etc directory.
 3. Now change to your home directory using only three key presses.
@@ -10,4 +10,9 @@
 10.List the files in /boot in a human readable format.
 11. Create in one command the directories ~/dir1/dir2/dir3 (dir3 is a subdirectory
 from dir2, and dir2 is a subdirectory from dir1 ).
-12.create /tmp/test-fld folder and /tmp/test-File file and move /tmp/test-File inside /tmp/test-fld.now remove /tmp/test-fld using two ways
+12.create /tmp/test-fld folder and /tmp/test-File file and move /tmp/test-File inside /tmp/test-fld.now remove /tmp/test-fld using two ways.
+13.Display the type of file of /bin/cat, /etc/passwd and /usr/bin/passwd.
+14.Display the type of the file /usr/share/man/man1/bc.1.gz
+15. Create the files today.txt and yesterday.txt in touched.
+16. Change the date on yesterday.txt to match yesterday's date
+
