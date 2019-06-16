@@ -5,7 +5,9 @@
 4. Go to the parent directory of the current directory.
 5. Go to the root directory.
 7. List a long listing of the root directory using two ways.
-8. Stay where you are, and list the contents of /bin and /sbin.
-9.List the files in /boot in a human readable format.
-10. Create in one command the directories ~/dir1/dir2/dir3 (dir3 is a subdirectory
+8. using man pages list all files under /usr/bin and show list of files in long listing format,human readable fize format,and show the oldest files first.
+9. Stay where you are, and list the contents of /bin and /sbin.
+10.List the files in /boot in a human readable format.
+11. Create in one command the directories ~/dir1/dir2/dir3 (dir3 is a subdirectory
 from dir2, and dir2 is a subdirectory from dir1 ).
+12.create /tmp/test-fld folder and /tmp/test-File file and move /tmp/test-File inside /tmp/test-fld.now remove /tmp/test-fld using two ways
