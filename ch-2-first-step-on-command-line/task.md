@@ -27,4 +27,12 @@ Five
 21. Display catcnt.txt, but with all lines in reverse order (the last line first).
 22.Use cat to create a file named tailing.txt that contains the contents of /etc/profile
 followed by the contents of /etc/passwd.
+23. Does the file /bin/cat exist ? What about /bin/dd and /bin/echo. What is the type
+of these files ?
+24. Display /proc/cpuinfo. On what architecture is your Linux running ?
+25.Are ifconfig, fdisk, parted, shutdown and grub-install present in /sbin ? Why are
+these binaries in /sbin and not in /bin ?
+26. Display /proc/interrupts. What is the size of this file ? Where is this file stored ?
+
+
 
