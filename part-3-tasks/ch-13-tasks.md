@@ -1,4 +1,4 @@
-#  ch.11 commands and arguments.
+#  ch.13 shell history
 1.lsit the last 10 commands you wrote
 
 2.How many commands can be kept in memory for your current shell session ?
