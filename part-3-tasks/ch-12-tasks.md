@@ -1,4 +1,4 @@
-#  ch.11 Variables
+#  ch.12 Variables
 1.print "Hello" followed by your username using enviroment variable.
 
 2.create the variable age and put your age as a value.
