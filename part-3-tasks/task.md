@@ -1,4 +1,5 @@
 #ch10  commands and arguments
+
 How many arguments are in this line (not counting the command itself).
 touch '/etc/cron/cron.allow' 'file 42.txt' "file 33.txt"
 2. Is tac a shell builtin command ?
