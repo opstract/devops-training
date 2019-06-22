@@ -1,0 +1,6 @@
+#  ch.11 commands and arguments.
+1. Execute ls after cd /etc,  if cd /etc succeed .
+2.Execute ls after cd /home,  if cd /etcx  failed.
+3.Execute cd /ect , and ls -l in one line of command
+5.print "Hello World" when "touch postract" works, and print "it failed" when the touch
+failed. 
