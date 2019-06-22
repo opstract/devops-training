@@ -1,5 +1,5 @@
 # ch.13  file globbing
-1. Create cars car1 car10 car11 car2 Car2 Car3 Car33 carAB cara carA carAAA
+1.Create cars car1 car10 car11 car2 Car2 Car3 Car33 carAB cara carA carAAA
 
 a.list all files
 
