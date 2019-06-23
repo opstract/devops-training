@@ -1,4 +1,4 @@
-# File Permissions tasks:
+# Standard File Permissions tasks:
 1. As **normal user**, create a **directory** **~/permissions**. Create a **file** owned by yourself in there.
 2. **Copy** a **file** owned by **root** from **/etc/** to your **permissions** dir, who owns this file now ?
 3. As **root**, create a **file** in the user's **~/permissions** directory.
