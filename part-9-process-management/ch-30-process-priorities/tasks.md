@@ -5,4 +5,4 @@
 3. By using **top** and **ps** display the information **(pid, ppid, priority, nice value, ...)** of these four **cat** processes.
 4. **Bounce** another character between the other pairs of pipes, but this time start the commands **nice -5**. **Verify** that all cat processes are battling for the cpu.
 5. By using **ps** **verify** that the four new cat processes have a nice value. Use the **-o** and **-C** options of ps for this.
-6. **Use** renice te **increase** the nice value from 5 to 10. **Notice** the difference with the usual commands.
+6. **Use** renice to **increase** the nice value from 5 to 10. **Notice** the difference with the usual commands.
