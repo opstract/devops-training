@@ -1,6 +1,6 @@
 # Background Processes Tasks
 
-1. **Create** by using vim a text file, then **suspend** vim in the background.
+1. By using vim **create** a text file, then **suspend** vim in the background.
 2. With **jobs** command **verify** that **vim** is suspended in the background.
 3. Run **find / > /tmp/systemfiles.txt** 2>/dev/null in the foreground, then **suspend** it in the background before it finishes.
 5. **Start** four long sleep processes in background.
