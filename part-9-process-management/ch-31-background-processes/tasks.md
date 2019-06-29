@@ -8,3 +8,19 @@
 7. Use **kill** command to suspend the last two sleep processes.
 8. **Continue** the find process in the background (make sure it runs again). 
 9. **Put** one of the sleep commands back in foreground.
+
+
+# Bounce question
+- Explain in details why the result is different for each command in the below code snippet.
+
+```shell
+
+root@server# echo $$ $PPID
+89 0
+root@server# bash -c "echo $$ $PPID"
+89 0
+root@server# bash -c 'echo $$ $PPID'
+350 89
+root@server# bash -c `echo $$ $PPID`
+0: 89: command not found
+```
