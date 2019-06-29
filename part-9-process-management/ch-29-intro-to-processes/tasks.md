@@ -1,6 +1,6 @@
 # Introduction To Processes Tasks:
-1. By using **ps** to **search** for **init** process by **name**.
-2. What is the **pid** of  **init** process ?
+1. By using **ps** **search** for **init** process by **name**.
+2. What is the **pid** of **init** process ?
 3. Use the **w** command to determine your **terminal** name.
 4. By using your **terminal** name from above, use **ps** to **find** all **processes** associated with your **terminal**.
 5. What is the **pid** of your shell ?
