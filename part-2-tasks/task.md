@@ -1,11 +1,11 @@
 # First step on command line .
-1. Display your current directory.
-2. Change to the /etc directory.
-3. Now change to your home directory using only three key presses.
-4. Go to the parent directory of the current directory.
-5. Go to the root directory.
-7. List a long listing of the root directory using two ways.
-8. using man pages list all files under /usr/bin and show list of files in long listing format,human readable fize format,and show the oldest files first.
+1.Display your current directory.
+2.Change to the /etc directory.
+3.Now change to your home directory using only three key presses.
+4.Go to the parent directory of the current directory.
+5.Go to the root directory.
+7.List a long listing of the root directory using two ways.
+8.Using man pages list all files under /usr/bin and show list of files in long listing format,human readable fize format,and show the oldest files first.
 9. Stay where you are, and list the contents of /bin and /sbin.
 10.List the files in /boot in a human readable format.
 11. Create in one command the directories ~/dir1/dir2/dir3 (dir3 is a subdirectory
