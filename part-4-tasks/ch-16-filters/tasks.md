@@ -12,4 +12,4 @@ Sameer
 Sameer
 Ali
 
-replace all Sameer with with Linux using sed,then delete linux word using sed too
+then replace all Sameer with with Linux using sed,then delete linux word using sed too
