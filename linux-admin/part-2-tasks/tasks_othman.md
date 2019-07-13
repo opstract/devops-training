@@ -123,11 +123,13 @@ ls -S /etc
 
 26.  Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
 
-cat tailing.txt /etc/passwd > tailing.txt
+cat /etc/passwd >> tailing.txt
 
 27. Use cat to create a file named tailing.txt that contains the contents of tailing.txt **preceded** by the contents of /etc/passwd.
 
-cat /etc/passwd tailing.txt > tailing.txt
+cat /etc/passwd>tailing2.txt
+cat tailing.txt >> tailing2.txt
+cat tailing2.txt>tailing.txt
 
 28. Does the file /bin/cat exist ? What about /bin/dd and /bin/echo. What is the type of these files ?
 
