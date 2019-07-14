@@ -5,9 +5,9 @@ vim
  zakaria
  khaled
  omar
-a.copy first three lines and paset them in the end of the line while you are in the command mode
-b.cut first three lines and paset them in the end of the line while you are in the command mode
-c.delete the first three lines while you are in the command mode
-d.replace zakaria with sameer
-e.undo the last action
-f.save and exit
+a. copy first three lines and paset them in the end of the line while you are in the command mode
+b. cut first three lines and paset them in the end of the line while you are in the command mode
+c. delete the first three lines while you are in the command mode
+d. replace zakaria with sameer
+e. undo the last action
+f. save and exit
