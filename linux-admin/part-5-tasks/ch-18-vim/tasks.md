@@ -1,5 +1,5 @@
 vim
-1.Start the vim and do some or all of the exercises
+1. Start the vim and do some or all of the exercises
 open a file named session.txt and put the below lines:
 sameer
 zakaria
