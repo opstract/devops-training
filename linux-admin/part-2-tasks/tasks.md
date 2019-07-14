@@ -27,11 +27,11 @@ Five
 20. Use cat to make a backup of count.txt file to catcnt.txt.
 21. Display catcnt.txt, but with all lines in reverse order (the last line first).
 22. Use cat to create a file named tailing.txt that contains the contents of /etc/profile followed by the contents of /etc/passwd.
-23. Use more to display /var/log/messages.
-24. Display the readable character strings from the /usr/bin/passwd.
-25. Use ls to find the biggest file in /etc.
-26.  Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
-27. Use cat to create a file named tailing.txt that contains the contents of tailing.txt **preceded** by the contents of /etc/passwd.
+23. Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
+24. Use cat to create a file named tailing.txt that contains the contents of tailing.txt **preceded** by the contents of /etc/passwd.
+25. Use more to display /var/log/syslog.
+26. Use ls to find the biggest file in /etc.
+27. Display the readable character strings from the /usr/bin/passwd.
 28. Does the file /bin/cat exist ? What about /bin/dd and /bin/echo. What is the type of these files ?
 29. Display /proc/cpuinfo. On what architecture is your Linux running ?
 30. Are ifconfig, fdisk, parted, shutdown and grub-install present in /sbin ? Why are these binaries in /sbin and not in /bin ?
