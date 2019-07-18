@@ -48,13 +48,13 @@ Three
 Four
 Five
 
-$cat > count.txt
-One
-Two
-Three
-Four
-Five
-^d
+$cat > count.txt << EOF
+> One
+> Two
+> Three
+> Four
+> Five
+> EOF
 19. Use cp to make a backup of count.txt file to cnt.txt.
 $cp count.txt cnt.txt
 20. Use cat to make a backup of count.txt file to catcnt.txt.
@@ -72,7 +72,7 @@ $ls -lSr /etc | tail -1
 26.  Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
 $cat /etc/passwd >> tailing.txt
 27. Use cat to create a file named tailing.txt that contains the contents of tailing.txt **preceded** by the contents of /etc/passwd.
-$cat /etc/passwd tailing.txt > tailing.txt
+$echo "$(cat /etc/passwd)$(cat tailing.txt)" > tailing.txt
 28. Does the file /bin/cat exist ? What about /bin/dd and /bin/echo. What is the type of these files ?
 # Yes they exist, we can verify that by using 'ls' cmd
 $ls /bin/cat /bin/dd /bin/echo
