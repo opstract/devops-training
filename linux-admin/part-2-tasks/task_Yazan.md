@@ -18,14 +18,14 @@ cd /
 ls -l
 
 7. Using man pages list all files under /usr/bin and show list of files in long listing format,human readable size format,and show the oldest files first.
-ls  -haltr /usr/bin
+ls  -lht /srt/bin
 
 8. Stay where you are, and list the contents of /bin and /sbin.
 ls /bin
 ls /sbin
 
 9. List the files in /boot in a human readable format.
-ls -hl /boot
+ls -hl
 
 10. Create in one command the directories ~/dir1/dir2/dir3 (dir3 is a subdirectory from dir2, and dir2 is a subdirectory from dir1 ).
 mkdir -p ~/dir1/dir2/dir3
@@ -34,7 +34,7 @@ mkdir -p ~/dir1/dir2/dir3
 mkdir -p /tmp/test-fld/
 touch /tmp/test-File
 mv /tmp/test-File tmp/test-fld/
-rm -r /tmp/test-fld
+rm /tmp/test-File
 
 12. Display the type of file of /bin/cat, /etc/passwd and /usr/bin/passwd.
 file /bin/cat /etc/passwd /usr/bin/passwd
@@ -60,13 +60,12 @@ Two
 Three
 Four
 Five"
-cat > test.txt 
+cat > test.txt
 One
 Two
 Three
 Four
 Five
-+ ctrl d
 
 19. Use cp to make a backup of count.txt file to cnt.txt.
 cp count.txt cnt.txt
@@ -78,16 +77,16 @@ cat count.txt > catcnt.txt
 tac catcnt.txt
 
 22. Use cat to create a file named tailing.txt that contains the contents of /etc/profile followed by the contents of /etc/passwd.
-cat /etc/profile /etc/passwd >> tailing.txt
+cat /etc/passwd >> tailing.txt
 
 23. Use more to display /var/log/messages.
 more /var/log/messages
 
 24. Display the readable character strings from the /usr/bin/passwd.
-strings /usr/bin/passwd
+string /usr/bin/passwd
 
 25. Use ls to find the biggest file in /etc.
-ls -lrS /etc |head -1
+ls -lrS /etc
 
 26.  Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
 cat /etc/passwd >> tailing.txt
