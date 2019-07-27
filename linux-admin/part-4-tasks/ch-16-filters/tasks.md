@@ -14,3 +14,4 @@ Sameer
 Ali
 ```
 then replace all Sameer with with Linux using sed,then delete Linux word using sed too
+5. Write a line that receives a text file, and outputs all words on a separate line.
