@@ -26,7 +26,7 @@ ls -l
 
 7. Using man pages list all files under /usr/bin and show list of files in long listing format,human readable size format,and show the oldest files first.
 
-ls -lhtr
+ls -lhtra
 
 8. Stay where you are, and list the contents of /bin and /sbin.
 
@@ -47,9 +47,11 @@ mkdir ~/dir1/dir2/dir3 -p
 mkdir /tmp/test-fld 
 touch /tmp/test-File
 mv /tmp/test-File /tmp/test-fld
-
-rmdir /tmp/test-fld --ignore-fail-on-non-empty
-rm /tmp/test-fld -d
+/
+rm /tmp/test-fld/test-File
+rmdir /tmp/test-fld
+/
+rm /tmp/test-fld/test-File -dr
 
 12. Display the type of file of /bin/cat, /etc/passwd and /usr/bin/passwd.
 
@@ -84,13 +86,13 @@ Three
 Four
 Five
 
-cat >count.txt
+cat >count.txt <<EOF
 One
 Two
 Three
 Four
 Five
-ctrl+d
+EOF
 
 
 19. Use cp to make a backup of count.txt file to cnt.txt.
@@ -119,7 +121,7 @@ strings /usr/bin/passwd
 
 25. Use ls to find the biggest file in /etc.
 
-ls -S /etc
+ls -S /etc | head -1
 
 26.  Use cat to create a file named tailing.txt that contains the contents of tailing.txt **followed** by the contents of /etc/passwd.
 
